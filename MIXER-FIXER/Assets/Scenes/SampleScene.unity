@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 3
+  bucketIndex: 2
 --- !u!212 &13494375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 2
+  bucketIndex: 1
 --- !u!212 &86191453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 6
+  bucketIndex: 5
 --- !u!212 &159614282
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 1
+  bucketIndex: 0
 --- !u!212 &278864146
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -774,7 +774,7 @@ Transform:
   m_GameObject: {fileID: 356315714}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.94, y: -2.18, z: 0.0027888287}
+  m_LocalPosition: {x: -0, y: -2.18, z: 0.0027888287}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1192,7 +1192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 5
+  bucketIndex: 4
 --- !u!212 &536266666
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1450,7 +1450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 4
+  bucketIndex: 3
 --- !u!212 &1450006306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b000de74d5916c468c6918d838f7583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bucketIndex: 7
+  bucketIndex: 6
 --- !u!212 &2069874321
 SpriteRenderer:
   m_ObjectHideFlags: 0
