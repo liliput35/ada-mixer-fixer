@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         targetPosition = bucketHolder.transform.position;
+        currentBucket = 3;
+        MoveBuckets();
     }
 
     void Update()
