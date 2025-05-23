@@ -23,6 +23,9 @@ public class GameManager : MonoBehaviour
     public GameObject hierarchy;
     public GameObject checkGroup;
 
+    public SpriteRenderer machineSr;
+    public Sprite machineSorted;
+
     void Start()
     {
         targetPosition = bucketHolder.transform.position;
@@ -60,6 +63,7 @@ public class GameManager : MonoBehaviour
             hierarchy.SetActive(false);
             checkGroup.SetActive(true);
             busterSr.sprite = happyBuster;
+            machineSr.sprite = machineSorted;
         }
     }
 }

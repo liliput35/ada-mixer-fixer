@@ -3614,6 +3614,8 @@ MonoBehaviour:
   sortedComplete: 0
   hierarchy: {fileID: 278394212}
   checkGroup: {fileID: 1301907931}
+  machineSr: {fileID: 400564337}
+  machineSorted: {fileID: 4613056777066625334, guid: 62d9afe0453517341ade2a827b708b25, type: 3}
 --- !u!4 &1543930394
 Transform:
   m_ObjectHideFlags: 0
