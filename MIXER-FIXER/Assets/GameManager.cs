@@ -9,12 +9,24 @@ public class GameManager : MonoBehaviour
     public float moveSpeed = 5f;
 
     private Vector3 targetPosition;
+    public bool machineEmpty = false;
+
+    public GameObject panel;
+    public SpriteRenderer panelSr;
+    public Sprite[] panelSprites;
+
+    public bool sortedComplete;
+
+    public GameObject hierarchy;
+    public GameObject checkGroup;
 
     void Start()
     {
         targetPosition = bucketHolder.transform.position;
         currentBucket = 3;
         MoveBuckets();
+        panelSr = panel.GetComponent<SpriteRenderer>();
+        checkGroup.SetActive(false);
     }
 
     void Update()
@@ -36,5 +48,14 @@ public class GameManager : MonoBehaviour
 
         // Move the whole holder so that selected bucket aligns with centerPoint
         targetPosition = bucketHolder.transform.position + worldOffset;
+    }
+
+    public void showCheck()
+    {
+        if (sortedComplete)
+        {
+            hierarchy.SetActive(false);
+            checkGroup.SetActive(true);
+        }
     }
 }
