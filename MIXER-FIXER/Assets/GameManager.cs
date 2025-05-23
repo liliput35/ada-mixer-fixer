@@ -15,6 +15,9 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer panelSr;
     public Sprite[] panelSprites;
 
+    public SpriteRenderer busterSr;
+    public Sprite happyBuster;
+
     public bool sortedComplete;
 
     public GameObject hierarchy;
@@ -56,6 +59,7 @@ public class GameManager : MonoBehaviour
         {
             hierarchy.SetActive(false);
             checkGroup.SetActive(true);
+            busterSr.sprite = happyBuster;
         }
     }
 }
